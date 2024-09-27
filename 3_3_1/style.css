@@ -1,0 +1,14 @@
+/* Adding margin for spacing */
+button {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+img {
+    margin-top: 20px;
+    display: block;
+}
+
+#parentDiv {
+    margin-top: 20px;
+}

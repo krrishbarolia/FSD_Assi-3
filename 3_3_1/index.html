@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1 id="title">Welcome to My Dynamic Web Page</h1>
+
+    <div class="content" id="textSection">
+        <p>This text will be changed dynamically!</p>
+    </div>
+
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Title Color</button>
+    <button onclick="moveTitle()">Move Title</button>
+
+    <img id="image" src="netflix.jpeg" alt="Placeholder Image">
+
+    <button onclick="changeImage()">Change Image</button>
+
+    <div id="parentDiv">
+        <p>This is a paragraph inside the parent div.</p>
+        <p>Kyu btaau</p>
+    </div>
+
+    <button onclick="addTextNode()">Add Text Node</button>
+    <button onclick="deleteNode()">Delete Node</button>
+
+</body>
+
+</html>
